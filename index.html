@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Muhammad Hasam | Cloud Engineer</title>
+
+  <style>
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body { font-family: 'Segoe UI', sans-serif; background: #0a0a0a; color: #e0e0e0; }
+
+    header { padding: 60px 40px; border-bottom: 1px solid #222; }
+
+    h1 { font-size: 2.5rem; color: #fff; }
+
+    .tagline { color: #ff9900; margin-top: 8px; }
+
+    .cert-badge { display: inline-block; background: #ff9900; color: #000; 
+
+                  padding: 4px 12px; border-radius: 4px; font-weight: bold; margin-top: 12px; }
+
+    section { padding: 40px; border-bottom: 1px solid #222; }
+
+    h2 { color: #ff9900; margin-bottom: 20px; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 2px; }
+
+    .project-card { background: #111; border: 1px solid #333; border-radius: 8px; 
+
+                    padding: 20px; margin-bottom: 16px; }
+
+    .project-card h3 { color: #fff; margin-bottom: 8px; }
+
+    .tags { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
+
+    .tag { background: #1a1a2e; border: 1px solid #ff9900; color: #ff9900; 
+
+           padding: 2px 10px; border-radius: 20px; font-size: 0.8rem; }
+
+    .skills-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; }
+
+    .skill-item { background: #111; border: 1px solid #333; padding: 10px 16px; 
+
+                  border-radius: 6px; text-align: center; font-size: 0.9rem; }
+
+    footer { padding: 30px 40px; text-align: center; color: #555; }
+
+  </style>
+
+</head>
+
+<body>
+
+<header>
+
+  <h1>Muhammad Hasam</h1>
+
+  <div class="tagline">Cloud Support Engineer · DevOps · Infrastructure</div>
+
+  <div class="cert-badge">AWS Certified Solutions Architect – Associate</div>
+
+</header>
+
+<section>
+
+  <h2>Cloud Projects</h2>
+
+  <div class="project-card">
+
+    <h3>☁️ Cloud Portfolio — S3 + CloudFront CI/CD</h3>
+
+    <p>Deployed this static site on Amazon S3 with CloudFront CDN for low-latency global delivery. 
+
+    Configured automated deployment pipeline using GitHub Actions — every push to main branch 
+
+    triggers automatic sync to S3 and CloudFront cache invalidation.</p>
+
+    <div class="tags">
+
+      <span class="tag">S3</span><span class="tag">CloudFront</span>
+
+      <span class="tag">GitHub Actions</span><span class="tag">CI/CD</span><span class="tag">IAM</span>
+
+    </div>
+
+  </div>
+
+  <div class="project-card">
+
+    <h3>🐳 Containerized App on EC2 with CloudWatch Monitoring</h3>
+
+    <p>Provisioned an EC2 instance (Amazon Linux 2023), configured Security Groups and IAM roles, 
+
+    and deployed a Dockerized Node.js application. Implemented CloudWatch Agent for system-level 
+
+    metrics collection, custom dashboards, and alarm notifications via SNS.</p>
+
+    <div class="tags">
+
+      <span class="tag">EC2</span><span class="tag">Docker</span><span class="tag">CloudWatch</span>
+
+      <span class="tag">SNS</span><span class="tag">IAM</span><span class="tag">Linux</span>
+
+    </div>
+
+  </div>
+
+  <div class="project-card">
+
+    <h3>🏗️ Infrastructure as Code with Terraform</h3>
+
+    <p>Wrote Terraform configurations to provision a complete AWS environment: custom VPC with 
+
+    public/private subnets, Internet Gateway, Route Tables, Security Groups, and EC2 instance. 
+
+    Managed remote state with S3 backend and DynamoDB state locking for team safety.</p>
+
+    <div class="tags">
+
+      <span class="tag">Terraform</span><span class="tag">VPC</span><span class="tag">EC2</span>
+
+      <span class="tag">S3 Backend</span><span class="tag">DynamoDB</span><span class="tag">IaC</span>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section>
+
+  <h2>Skills & Services</h2>
+
+  <div class="skills-grid">
+
+    <div class="skill-item">Amazon EC2</div>
+
+    <div class="skill-item">Amazon S3</div>
+
+    <div class="skill-item">CloudFront</div>
+
+    <div class="skill-item">ECS</div>
+
+    <div class="skill-item">Elastic Beanstalk</div>
+
+    <div class="skill-item">DynamoDB</div>
+
+    <div class="skill-item">RDS</div>
+
+    <div class="skill-item">CloudWatch</div>
+
+    <div class="skill-item">IAM</div>
+
+    <div class="skill-item">VPC</div>
+
+    <div class="skill-item">Docker</div>
+
+    <div class="skill-item">Terraform</div>
+
+    <div class="skill-item">GitHub Actions</div>
+
+    <div class="skill-item">Jenkins</div>
+
+    <div class="skill-item">Linux/SSH</div>
+
+    <div class="skill-item">PowerShell</div>
+
+  </div>
+
+</section>
+
+<footer>
+
+  Muhammad Hasam · AWS SAA Certified · Karachi, Pakistan
+
+</footer>
+
+</body>
+
+</html>
